@@ -3,7 +3,7 @@
 # Team VS Team
 
 Echipa noastra: yoyoboyss <br/>
-Echipa adversa: HMM <br/>
+Echipa adversa: [HMM](https://github.com/ImCataG/xor-cypher) <br/>
 Parola echipei adverse: despacito30AB <br/>
 
 # input + output
