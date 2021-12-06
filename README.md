@@ -12,7 +12,7 @@ Parola echipei adverse: despacito30AB <br/>
 
 # output
 
-&emsp;Pentru aflarea cheii doar pe baza de output am folosit un script codat in C++ ce realiza o metoda bruteforce de aflare a cheii. Am ales sa folosim C++ deoarece metoda noastra bruteforce necesita foarte multe operatii de executat, iar C++ s-a potrivit perfect pentru ceea ce voiam sa facem. <br/>
+&emsp;Pentru aflarea cheii doar pe baza de output am folosit un script codat in C++, numit main.cpp, ce este gasit pe pagina de github, ce realiza o metoda bruteforce de aflare a cheii. Am ales sa folosim C++ deoarece metoda noastra bruteforce necesita foarte multe operatii de executat, iar C++ s-a potrivit perfect pentru ceea ce voiam sa facem. <br/>
 &emsp;Pentru aflarea cheii incercam sa folosim o cheie partiala de lungime X, care sa decodifice caracterele cuprinse intre indixii [i, i+X), pentru o cheie ce ar fi avut lungimea L. <br/>
 &emsp;Plecand de la aceasta idee, noi generam toate aranjamentele de caractere valide pentru o cheie partiala de lungime X, dupa care aplicam algoritmul prezentat mai sus, si incercam sa vedem in care dintre acele decodificari gaseam cuvantul "este". <br/>
 &emsp;Deoarece cuvantul "este" este foarte raspandit in limba romana, exista foarte mare probabilitate ca in momentul cand folosim o parte din cheia corecta, cuvantul "este" sa se gaseasca la un moment dat pe un interval de caractere [i, i+X) din cheia de lungime L. <br/>
